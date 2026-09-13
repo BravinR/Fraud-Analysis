@@ -150,3 +150,30 @@ This is a bot signature, not human behaviour.
 It is a perfect separator over 5% of the data, and it accounts for 53.7% of every fraud case in the dataset.
 
 ### Shared Devices
+
+device_id is near-unique for most users, but a minority repeat. Fraud rate rises sharply with the number of accounts behind a single device.
+
+| Accounts per device | Transactions | Fraud rate |
+|---|---:|---:|
+| 1 | 131,781 | 3.0% |
+| 2 | 10,654 | 22.9% |
+| 3 | 270 | 24.4% |
+| 4 | 16 | 62.5% |
+| 5 | 65 | 80.0% |
+| 6 or more | 8,326 | 91.0% |
+
+The reuse distribution is bimodal: normal single use, then a separate cluster of 741 devices carrying 6 to 20 accounts each.
+
+# Slide 8
+Shared IP Addresses
+
+The same pattern appears on IP addresses, which is expected if the same automation drives both.
+
+| Accounts per IP | Transactions | Fraud rate |
+|---|---:|---:|
+| 1 | 142,748 | 4.6% |
+| 2 | 6 | 16.7% |
+| 3 | 6 | 66.7% |
+| 4 | 16 | 81.3% |
+| 5 | 65 | 80.0% |
+| 6 or more | 8,271 | 91.5% |
