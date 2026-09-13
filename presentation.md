@@ -177,3 +177,9 @@ The same pattern appears on IP addresses, which is expected if the same automati
 | 4 | 16 | 81.3% |
 | 5 | 65 | 80.0% |
 | 6 or more | 8,271 | 91.5% |
+
+# Slide 9
+What to do next
+1. Proposed methodology
+2. Expected outcomes
+3. Build the model
