@@ -7,15 +7,17 @@ Presented by Bravin and Chidera
 
 # Slide 2
 ## 1. Problem Definition
-E-commerce platforms lose money to fraudulent orders placed with stolen payment credentials.
+Fraudulent orders can cost merchants 2×+ the order value through chargebacks, goods, and fulfillment costs.
 
-a chargeback typically costs the merchant the goods, the fulfilment and shipping, and a processing fee, so the realised loss on an undetected fraudulent order commonly exceeds twice its face value.
+### Goal
+Predict the probability that a new user’s first transaction is fraudulent, using only information available at purchase.
 
-This project aims to build a prediction model that will 
-Estimate the probability that a new user's first transaction is fraudulent, using only information available at the instant of purchase.
+### Decision
+Use the risk score to:
 
-Then based on the probability decide whether
-a newly registered user can complete the order normally, require a step-up verification such as an SMS code, or hold the order for manual review?
+✅ Approve the order
+🔐 Require step-up verification
+⏸️ Hold for manual review
 
 # Slide 3
 ## Dataset Exploration
